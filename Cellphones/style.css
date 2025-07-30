@@ -1,0 +1,213 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #EC8A95;
+}
+
+.rectangle{
+    width: 2px;
+    height: 12px;
+    background-color: #EC8A95;
+}
+
+.weight700{
+    font-weight: 700;
+}
+
+svg:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #DB1930;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-top{
+    width: 100%;
+    height: 35%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.navbar-top-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.navbar-top-component:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.navbar-bottom{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 125px;
+}
+
+.navbar-bottom button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    padding: 0 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #E55464;
+    border: none;
+    border-radius: 8px;
+}
+
+#unique-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 16px;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+}
+
+#unique-button:hover{
+    background-color: #D02435;
+}
+
+
+.navbar-bottom button:hover{
+    background-color: #CD1227;
+}
+
+.search-bar{
+    height: 40px;
+    width: 350px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 8px 32px 8px 8px;
+    opacity: 0.5;
+}
+
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: brown;
+    padding: 0 125px;
+}
+
+.directory{
+    width: 100%;
+    height: 32px;
+    background-color: #CD1227;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.directory div{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.directory div a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.directory div div{
+    font-size: 16px;
+    color: #707070;
+}
+
+#directory-mac{
+    color: #707070;
+}
+
+.advertisement{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.advertisement img{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer{
+    width: 100%;
+    height: 35%;
+    background-color: darkgray;
+}
+
