@@ -114,7 +114,13 @@
     width: 200px;
 }
 
-#language{
-    background-color: transparent;
+#languages{
+    border-bottom: 1px solid black;
+    border: none;
+    background-color: #f0f4fa;
+}
+
+#link{
+    color: #0c57d1;
 }
 
