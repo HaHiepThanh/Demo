@@ -115,7 +115,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 #main-bottom{
@@ -128,4 +127,9 @@
     background: white;
     gap: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.a{
+    color: #0067B8;
+    text-decoration: none;
 }
