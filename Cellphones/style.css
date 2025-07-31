@@ -378,7 +378,7 @@ body{
     box-sizing: inherit;
     width: 100%;
     height: 1769px;
-    background-color: #FAFAFA;
+    background-color: white;
     display: grid;
     justify-self: stretch;
     grid-gap: 34px;
