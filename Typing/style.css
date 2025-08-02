@@ -448,9 +448,8 @@ body{
 
 .link {
     width: 950px;
-
     margin-top: 165px;
-    background-color: blue;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -458,6 +457,8 @@ body{
 }
 
 .link-top{
+    width: 100%;
+    background-color: #DFA419;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -465,6 +466,206 @@ body{
 }
 
 .link-bottom{
-    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.link-bottom-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 24px;
+}
+
+.link-bottom-left-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.link-bottom-left-below div{
+    border-radius: 6px;
+    height: 34px;
+}
+
+.facebook, .tung-cua{
+    color: white;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #305991;
+    cursor: pointer;
+}
+
+.twitter{
+    color: white;
+    gap: 8px;
+    background-color: #2CA8D2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.google{
+    color: black;
+    gap: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.email{
+    color: white;
+    gap: 8px;
+    background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.stumbleupon{
+    color: white;
+    gap: 8px;
+    background-color: #EA4B25;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.facebook p, .twitter p, .google p, .email p, .tug-cua p, .stumbleupon p{
+    font-size: 14px;
+}
+
+.facebook:hover, .tung-cua{
+    background-color: #2A4D7D;
+}
+
+.twitter:hover{
+    background-color: #2797BD;
+}
+
+.google:hover{
+    background-color: #F5F5F5;
+}
+
+.email:hover{
+    background-color: #040404;
+}
+
+.stumbleupon:hover{
+    background-color: #DF3D15;
+}
+
+.link-bottom-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+
+.link-bottom-right-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.container-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.container-information p{
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.container-input{
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    border-radius: 6px;
+    background-color: white;
+    color: #555555;
+}
+
+.container-input input{
+    width: 100%;
+    font-size: 14px;
+    padding: 6px 12px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.ranking{
+    margin-top: 250px;
+    background-color: blue;
+}
+
+.ranking-option{
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: cyan;
+    gap: 2px;
+}
+
+.ranking-option-icon{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.ranking-option-icon1{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3E9FE;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.ranking-option-icon1:hover{
+    background-color: #EEEEEE;
+}
