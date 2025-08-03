@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 
+.word.correct { color: #4CAF50; }
+.word.wrong { color: #F44336; }
+.word.active-word {
+    text-decoration: underline; 
+}
+
 p{
     margin: 0;
 }
@@ -255,12 +261,20 @@ body{
     border-radius: 6px;
 }
 
-.text-flow{
+.text-flow {
+    font-size: 30px;
     width: 950px;
     height: 110px;
     background-color: white;
     border: 1px solid #8EB6D8;
     margin: 12px 0;
+    padding: 12px;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.5;
 }
 
 .text{
@@ -326,7 +340,7 @@ body{
 .result{
     width: 280px;
     height: 375px;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: gray;
     margin-top: 30px;
@@ -448,7 +462,7 @@ body{
     width: 950px;
     margin-top: 165px;
     background-color: white;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
