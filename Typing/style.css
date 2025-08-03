@@ -131,12 +131,11 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: cyan;
+    background-color: #BEDEFF;
 }
 
 .side-bar{
     width: 20%;
-    background-color: gray;
     margin-top: 32px;
 }
 
@@ -222,9 +221,8 @@ body{
 
 .main{
     width: 80%;
-    background-color: red;
     margin-top: 32px;
-    
+    margin-bottom: 170px;
 }
 
 .top-main{
@@ -632,7 +630,6 @@ body{
 
 .ranking{
     margin-top: 250px;
-    background-color: blue;
 }
 
 .ranking-option{
@@ -641,7 +638,6 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: cyan;
     gap: 2px;
 }
 
@@ -668,4 +664,126 @@ body{
 
 .ranking-option-icon1:hover{
     background-color: #EEEEEE;
+}
+
+.ranking-information{
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.ranking-information-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.ranking-information-header a{
+    text-decoration: none;
+    color: black;
+}
+
+.ranking-information-stats{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #DDDDDD;
+}
+
+.ranking-information-stats a{
+    text-decoration: none;
+    color: #428BCA;
+}
+
+.no, .image{
+    width: 10%;
+    height: 37px;
+    padding: 8px;
+}
+
+.name{
+    width: 50%;
+    height: 37px;
+    padding: 8px;
+}
+
+.numberwords, .hours{
+    width: 20%;
+    height: 37px;
+    padding: 8px;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px;
+    background-color: #161C20;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-left, .footer-middle{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about{
+    width: 100%;
+    margin: 20px 0 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.about-information{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.about-information:hover{
+    background-color: white;
+    border-radius: 6px;
+}
+
+.about-information2{
+    padding: 10px 15px;
+}
+
+.about-information a{
+    color: #428BCA;
+    text-decoration: none;
+}
+
+.about-information2 p{
+    color: #666666;
+    text-decoration: none;
 }
